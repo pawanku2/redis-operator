@@ -19,6 +19,7 @@ steps:
     echo $(MYNAME)
     pwd
     ls -lrt
+    chmod 0777 testscript.sh
     chown vsts:docker testscript.sh
     ./testscript.sh $(MYNAME)
   displayName: 'Run a multi-line script'
