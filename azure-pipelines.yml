@@ -18,5 +18,6 @@ steps:
     echo See https://aka.ms/yaml
     echo $(MYNAME)
     pwd
+    ls
     ./testscript.sh $(MYNAME)
   displayName: 'Run a multi-line script'
